@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlib</title>
+    <style>
+        body{
+            background: linear-gradient(45deg, black, #f15025);
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            border-style: solid;
+            font-family: 'Rubik', sans-serif;
+            
+        }
+    </style>
+    
+</head>
+<h1>My Halloween Madlib</h1>
+<body>
+    <p>
+    </p>
+    <input type="text" placeholder="City" id="wordOne"> <br>
+    <input type="text" placeholder="Another City" id="wordTwo"> <br>
+    <input type="text" placeholder="small town" id="wordThree"> <br>
+    <input type="text" placeholder="Another small town" id="wordFour"> <br>
+    <input type="text" placeholder="place" id="wordFive"> <br>
+    <input type="text" placeholder="place" id="wordSix"> <br>
+    <input type="text" placeholder="action" id="wordSeven"> <br>
+    <input type="text" placeholder="blank" id="wordEight"> <br>
+    
+
+    <button type="button" onclick="createParagraph()">Click Me</button> <br>
+    <div id="answer"></div>
+<audio controls autoplay >
+    <source src="./monster.wav">
+</audio> 
+
+<script src="app.js"></script>
+</body>
+</html>
